@@ -9,7 +9,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: #404040;
+    background-color: #525151;
     background-blend-mode: overlay;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +28,33 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.time-holder {
+    text-align: center;
+}
+
+.crypto-main{
+    display: flex;
+    align-items: center;
+}
+
+.crypto-name{
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.weather-wrapper {
+    margin-right: 2em;
+}
+.weather-city{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.weather-info > p{
+    margin-bottom: 0;
 }
 
 
